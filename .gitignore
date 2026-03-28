@@ -1,0 +1,18 @@
+# Environments
+.venv/
+env/
+__pycache__/
+
+# Data files (This absolutely prevents the CSV crash)
+*.csv
+*.zip
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
